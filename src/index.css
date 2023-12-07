@@ -37,12 +37,17 @@ body {
 }
 
 .main {
-  width: 50rem;
+  width: 60rem;
+  margin: auto; /* This centers the element horizontally */
+  display: flex;
+  justify-content: center; /* This centers the content horizontally within the flex container */
+  align-items: center; /* This centers the content vertically within the flex container */
+  min-height: 100vh; /* This ensures the container takes at least the full height of the viewport */
 }
 
 .app-header {
-  width: 66rem;
-  margin-bottom: 4rem;
+  width: 50rem;
+  margin: auto; /* This centers the element horizontally and adds some space at the bottom */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,7 +63,8 @@ body {
 }
 
 img {
-  width: 14rem;
+  width: 10rem;
+  border-radius: 50px;
 }
 
 h1 {
@@ -169,6 +175,7 @@ progress {
 
 .answer {
   transform: translateX(2rem);
+  
 }
 
 .result {
